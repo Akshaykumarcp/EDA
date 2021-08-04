@@ -1,0 +1,10 @@
+Take aways:
+
+- Always write down analysis/observations/conclusions after the plots
+- Dont forget the objective of the EDA
+
+Terms:
+
+1. Univariate analysis --> analysing 1 variable/features. Ex: PDF, CDF, box-plot, violine plot, etc.
+2. bivariate analysis --> analysing 2 variables/features. Ex: scatter plot, pair plot, etc.
+3. multivariate analysis --> more than 2 variables/features. Ex: 3D scatter plot

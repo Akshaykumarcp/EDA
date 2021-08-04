@@ -1,0 +1,18 @@
+https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv
+
+Objective: Classify given flower into one of the categories
+
+Features/independent variables/input variables: (http://terpconnect.umd.edu/~petersd/666/html/iris_with_labels.jpg)
+1. sepal_length,
+2. sepal_width,
+3. petal_length,
+4. petal_width
+
+Class labels/dependent variables/output variables:
+1. setosa
+2. virginica
+3. versicolor
+
+- Each row in the dataset can be called as data point/vector
+- 1 Dim vector is scalar. Ex: [5.6]
+- Domain knowledge is very important because based on domain knowledge dataset is created

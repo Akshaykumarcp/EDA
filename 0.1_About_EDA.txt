@@ -1,0 +1,10 @@
+What is Exploratory Data Analysis {EDA} ?
+- Analyse data with using tools such as stats, linear algebra and other tools
+
+Why EDA ?
+- important stage before ML modelling 
+- understand data better so that choosing ML model would be easier
+
+How EDA ?
+- With usage of plotting libraries such as matplotlib, seaborn etc
+- with usage of stats and other libraries for gaining insights on data
