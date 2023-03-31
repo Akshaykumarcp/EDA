@@ -17,7 +17,21 @@ Table of contents :eyes:
    * 3D and higher dimensional plot
       *  Pair plot
    * Univariate Analysis
+      - Plots for numerical features
+         - Frequency table and histograms
+         - Density plots
+         - Box plots
+      - Plots for Categorical features
+         - Frequency table
+         - Bar plot
    * Multivariate Analysis
+      - Plot for Numerical Vs Numerical
+         - Scatter plot
+         - Correlation Matrix
+      - Plot for Numerical Vs Categorical
+         - Scatter plot
+      - Plot for Categorical Vs Categorical
+   * EDA Checklist
    * License
    * Connect with me
 <!--te-->
@@ -28,7 +42,7 @@ Table of contents :eyes:
 - Analyse data with using tools such as stats, linear algebra and other tools
 
 <strong> Why EDA ?  </strong>
-- important stage before ML modelling 
+- important stage before ML modelling
 - understand data better so that choosing ML model would be easier
 
 <strong> How EDA ?  </strong>
@@ -61,7 +75,7 @@ Table of contents :eyes:
 
 # Univariate Analysis
 
-<!--- 
+<!---
 <table>
   <tr>
     <td>First Screen Page</td>
@@ -76,13 +90,27 @@ Table of contents :eyes:
   </tr>
  </table>
 --->
- 
+
  petal_length feature            |  petal_width feature          |  sepal_length feature          |  sepal_width feature
 :-------------------------:|:-------------------------:|:-------------------------: |:-------------------------:
 ![](https://github.com/Akshaykumarcp/FUN-with-EDA/blob/main/0.8_petal_length_histogramOrDensity_plot.png)  |  ![](https://github.com/Akshaykumarcp/FUN-with-EDA/blob/main/0.8_petal_width_histogramOrDensity_plot.png)|  ![](https://github.com/Akshaykumarcp/FUN-with-EDA/blob/main/0.8_sepal_length_histogramOrDensity_plot.png)|  ![](https://github.com/Akshaykumarcp/FUN-with-EDA/blob/main/0.8_sepal_width_histogramOrDensity_plot.png)
 
-# Multivariate Analysis 
+# Multivariate Analysis
 
 - using <strong> Joint Plot </strong> for petal_width & petal_length features.
 
 ![alt-text-1](https://github.com/Akshaykumarcp/FUN-with-EDA/blob/main/1.4_multivariate_jointplot.png "Joint plot for petal_width & petal_length features")
+
+# EDA Checklist
+
+- Number of observations?
+- Number of features?
+- Number data types of features?
+- Type of problem we're solving?
+- Any outliers?
+- Any features that can be engineered?
+
+## Points to remember
+- Identify data types of variables
+- Choose appropriate visualization according to the data type of variable
+- Extract insights
